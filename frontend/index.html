@@ -7,7 +7,21 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>My Smart Home</h1>
+  <header class="app-header">
+    <h1>My Smart Home</h1>
+  </header>
+
+  <main class="dashboard">
+    <section class="card">
+      <h2>Home Status</h2>
+      <div class="status-grid">
+        <div class="status-box"><span>💡 Lights</span><strong>3</strong><small>on</small></div>
+        <div class="status-box"><span>🔒 Doors</span><strong>2</strong><small>locked</small></div>
+        <div class="status-box"><span>🌡️ Climate</span><strong>72°F</strong><small>normal</small></div>
+        <div class="status-box"><span>📹 Security</span><strong>2</strong><small>active</small></div>
+      </div>
+    </section>
+  </main>
   <script src="js/app.js"></script>
 </body>
 </html>
